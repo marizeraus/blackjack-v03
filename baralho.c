@@ -40,7 +40,6 @@ int sorteiaCarta(Baralho *b){
 	int pos = b->posicao;
 	Valor = b->cartas[pos].valor;
 	b->posicao++;
-	printf("%d \n", pos);
 	printf("Carta: %d-%c\n", Valor, b->cartas[pos].naipe);
 	return Valor;
 	}
