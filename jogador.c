@@ -19,7 +19,6 @@ void initPartida(Jogador *j, int aposta){
 }
 // impreme na tela no nome de um jogador
 void imprimeJogador(Jogador j){
-	printf("aaaaaa");
 	printf("%s\n", j.nome);
 }
 
