@@ -5,6 +5,7 @@ Jogador initJogador(char *nome){
 	int size = strlen(nome);
 	Jogador j;
 	j.nome = (char *)malloc(size*sizeof(char));
+	strcpy(j.nome, nome);
 	j.pont = 0;
 	j.aposta = 0;
 	j.total = 0;
@@ -18,6 +19,7 @@ void initPartida(Jogador *j, int aposta){
 }
 // impreme na tela no nome de um jogador
 void imprimeJogador(Jogador j){
+	printf("aaaaaa");
 	printf("%s\n", j.nome);
 }
 
