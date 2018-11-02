@@ -46,7 +46,7 @@ void imprimeResultado(Jogador j){
 
 // atualiza o total de dinheiro do jogador e imprime na tela que ele ganhou
 void vitoria(Jogador *j){
-	printf("Voce ganhoui!\n");
+	printf("Voce ganhou!\n");
 	j->total += j->aposta;
 	return;
 
